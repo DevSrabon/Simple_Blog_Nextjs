@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 
-const about = () => {
+const About = () => {
   return (
 		<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 			<div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
@@ -136,4 +136,4 @@ const about = () => {
 	);
 }
 
-export default about
+export default About
