@@ -3,13 +3,6 @@ import React, { useEffect, useState } from 'react'
 
 const Slug = ({ myBlog }) => {
 	const [data, setData] = useState(myBlog);
-	// const router = useRouter();
-	// const { slug } = router.query;
-	// useEffect(() => {
-	// 	fetch(`http://localhost:3000/api/getblog?slug=${slug}`)
-	// 		.then((res) => res.json())
-	// 		.then((data) => setData(data));
-	// }, [slug]);
 	return (
 		<div className="h-[80vh] flex flex-col justify-center items-center mx-56">
 			<h2 className="text-2xl font-bold my-10"> {data.title}</h2>
